@@ -1,0 +1,20 @@
+[35m[1mConsolidate compiler generated dependencies of target arm_IK_server[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_FK_server[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_FK_client[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_IK_client[0m
+[ 25%] [32m[1mLinking CXX executable arm_FK_client[0m
+[ 25%] [32m[1mLinking CXX executable arm_FK_server[0m
+[ 50%] Built target arm_IK_server
+[ 75%] Built target arm_IK_client
+/usr/bin/ld/usr/bin/ld: : /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `: in function `_start_start':
+':
+((.text.text+0x+0x1b1b)): undefined reference to `: undefined reference to `mainmain'
+'
+collect2: error: ld returned 1 exit status
+collect2: error: ld returned 1 exit status
+gmake[2]: *** [CMakeFiles/arm_FK_client.dir/build.make:175: arm_FK_client] Error 1
+gmake[2]: *** [CMakeFiles/arm_FK_server.dir/build.make:175: arm_FK_server] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/arm_FK_server.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/arm_FK_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

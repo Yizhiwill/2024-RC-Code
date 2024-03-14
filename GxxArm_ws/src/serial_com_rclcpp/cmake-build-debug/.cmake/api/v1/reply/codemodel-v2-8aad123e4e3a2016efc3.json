@@ -1,0 +1,88 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f8327305136e880b5587.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "serial_com_rclcpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Serial_ReadPub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Serial_ReadPub-Debug-eb82b31422e09b48d2ac.json",
+					"name" : "Serial_ReadPub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "Serial_WriteSub::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Serial_WriteSub-Debug-53af9b7758a9525c0710.json",
+					"name" : "Serial_WriteSub",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "serial_com_rclcpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-serial_com_rclcpp_uninstall-Debug-5956cd9f3fc6b69db118.json",
+					"name" : "serial_com_rclcpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-3ae21398e0f21c4075e9.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/cmake-build-debug",
+		"source" : "/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

@@ -1,0 +1,42 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/Serial_ReadPub.dir/src/Serial_ReadPub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Serial_WriteSub.dir/src/Serial_WriteSub.cpp.o[0m
+In file included from [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:13[m[K:
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include/serial_com_rclcpp/serial_port.hpp:[m[K In member function ‘[01m[Kvoid serial_port::serial_com::Serial_Sen_Callback(double, double, double, double, double, double)[m[K’:
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include/serial_com_rclcpp/serial_port.hpp:29:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksumcheck[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   29 |     uint8_t [01;35m[Ksumcheck[m[K = 0;
+      |             [01;35m[K^~~~~~~~[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include/serial_com_rclcpp/serial_port.hpp:30:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kaddcheck[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   30 |     uint8_t [01;35m[Kaddcheck[m[K = 0;
+      |             [01;35m[K^~~~~~~~[m[K
+In file included from [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_WriteSub.cpp:14[m[K:
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include/serial_com_rclcpp/serial_port.hpp:[m[K In member function ‘[01m[Kvoid serial_port::serial_com::Serial_Sen_Callback(double, double, double, double, double, double)[m[K’:
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include/serial_com_rclcpp/serial_port.hpp:29:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksumcheck[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   29 |     uint8_t [01;35m[Ksumcheck[m[K = 0;
+      |             [01;35m[K^~~~~~~~[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include/serial_com_rclcpp/serial_port.hpp:30:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kaddcheck[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+   30 |     uint8_t [01;35m[Kaddcheck[m[K = 0;
+      |             [01;35m[K^~~~~~~~[m[K
+[ 75%] [32m[1mLinking CXX executable Serial_ReadPub[0m
+[ 75%] Built target Serial_ReadPub
+[100%] [32m[1mLinking CXX executable Serial_WriteSub[0m
+[100%] Built target Serial_WriteSub
+-- Install configuration: ""
+-- Installing: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_ReadPub
+-- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_ReadPub" to ""
+-- Installing: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_WriteSub
+-- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_WriteSub" to ""
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/ament_index/resource_index/package_run_dependencies/serial_com_rclcpp
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/ament_index/resource_index/parent_prefix_path/serial_com_rclcpp
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/environment/ament_prefix_path.sh
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/environment/ament_prefix_path.dsv
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/environment/path.sh
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/environment/path.dsv
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/local_setup.bash
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/local_setup.sh
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/local_setup.zsh
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/local_setup.dsv
+-- Installing: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/package.dsv
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/ament_index/resource_index/packages/serial_com_rclcpp
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/cmake/serial_com_rclcppConfig.cmake
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/cmake/serial_com_rclcppConfig-version.cmake
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/package.xml

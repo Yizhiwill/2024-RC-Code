@@ -1,0 +1,13 @@
+# ninja log v5
+0	4417	1709453331833947425	CMakeFiles/arm_kinesiology_client.dir/src/arm_kinesiology_client.cpp.o	f43716bfcb42e660
+3430	3539	1705645914934319643	arm_kinesiology_server	83c36f7b100f1d31
+0	3522	1705583740675565230	CMakeFiles/arm_kinesiology.dir/src/arm_kinesiology.cpp.o	be5ff899446985af
+4417	4575	1709453331993962452	arm_kinesiology_client	ee54ba8cab9e9d25
+3522	3668	1705583740823576928	arm_kinesiology	be5903f0517e0b8
+3374	3506	1709969594664386397	arm_FK_server	f3300b2183f26026
+1	3371	1710040699058254123	CMakeFiles/arm_FK_client.dir/src/arm_FK_client.cpp.o	90cf337bf12b683
+4458	4621	1710228577871430909	arm_IK_client	5380e4e3233a9134
+1	3430	1705645914822311929	CMakeFiles/arm_kinesiology_server.dir/src/arm_kinesiology_server.cpp.o	c04bbdc2ce247b7e
+3371	3484	1710040699174265204	arm_FK_client	c8bebc1f60d3843b
+0	4458	1710228577703419834	CMakeFiles/arm_IK_client.dir/src/arm_IK_client.cpp.o	bf350934025d216e
+0	3374	1709969594528377347	CMakeFiles/arm_FK_server.dir/src/arm_FK_server.cpp.o	f6af606daaa63922

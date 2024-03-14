@@ -1,0 +1,106 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-07eac08356ff03aa35e3.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.8"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "Kinesiology_arm_rclcpp",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "Kinesiology_arm_rclcpp_uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Kinesiology_arm_rclcpp_uninstall-Debug-0614f61479b0b96b8970.json",
+					"name" : "Kinesiology_arm_rclcpp_uninstall",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_FK_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_FK_client-Debug-eb48f30b53f61243ae91.json",
+					"name" : "arm_FK_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_FK_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_FK_server-Debug-fee99888fbebbea1c2dd.json",
+					"name" : "arm_FK_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_IK_client::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_IK_client-Debug-97dcd8a9134e064b8c8e.json",
+					"name" : "arm_IK_client",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "arm_IK_server::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-arm_IK_server-Debug-8180f2b88f39cb5445bd.json",
+					"name" : "arm_IK_server",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "uninstall::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-uninstall-Debug-0affa277c9f539b40d35.json",
+					"name" : "uninstall",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/cmake-build-debug",
+		"source" : "/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

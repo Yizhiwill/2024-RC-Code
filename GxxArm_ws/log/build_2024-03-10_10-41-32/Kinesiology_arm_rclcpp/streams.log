@@ -1,0 +1,65 @@
+[0.046s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20
+[0.059s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.129s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.144s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.146s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.149s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.154s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.163s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.194s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.194s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.257s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.341s] -- Found base_interfaces: 0.0.0 (/home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake)
+[0.405s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.435s] WARNING: Package name "Kinesiology_arm_rclcpp" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.447s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.447s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/include>
+[0.447s] -- Configured cppcheck exclude dirs and/or files: 
+[0.447s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.448s] -- Added test 'lint_cmake' to check CMake code style
+[0.449s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.451s] -- Added test 'uncrustify' to check C / C++ code style
+[0.451s] -- Configured uncrustify additional arguments: 
+[0.452s] -- Added test 'xmllint' to check XML markup files
+[0.452s] -- Configuring done
+[0.460s] -- Generating done
+[0.460s] -- Build files have been written to: /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp
+[0.475s] [35m[1mConsolidate compiler generated dependencies of target arm_FK_client[0m
+[0.475s] [35m[1mConsolidate compiler generated dependencies of target arm_IK_client[0m
+[0.476s] [35m[1mConsolidate compiler generated dependencies of target arm_IK_server[0m
+[0.486s] [ 16%] [32mBuilding CXX object CMakeFiles/arm_FK_client.dir/src/arm_FK_client.cpp.o[0m
+[0.486s] [ 33%] [32mBuilding CXX object CMakeFiles/arm_IK_server.dir/src/arm_IK_server.cpp.o[0m
+[0.486s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_IK_client.dir/src/arm_IK_client.cpp.o[0m
+[3.564s] [ 66%] [32m[1mLinking CXX executable arm_FK_client[0m
+[3.678s] [ 66%] Built target arm_FK_client
+[4.253s] [ 83%] [32m[1mLinking CXX executable arm_IK_server[0m
+[4.359s] [ 83%] Built target arm_IK_server
+[5.056s] [100%] [32m[1mLinking CXX executable arm_IK_client[0m
+[5.201s] [100%] Built target arm_IK_client
+[5.208s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp' returned '0': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20
+[5.224s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp
+[5.228s] -- Install configuration: ""
+[5.228s] -- Installing: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_FK_client
+[5.228s] -- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_FK_client" to ""
+[5.228s] -- Installing: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_IK_client
+[5.230s] -- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_IK_client" to ""
+[5.230s] -- Installing: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_IK_server
+[5.230s] -- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_IK_server" to ""
+[5.230s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/launch
+[5.230s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/launch/IK.launch.py
+[5.230s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/ament_index/resource_index/package_run_dependencies/Kinesiology_arm_rclcpp
+[5.230s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/ament_index/resource_index/parent_prefix_path/Kinesiology_arm_rclcpp
+[5.231s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/environment/ament_prefix_path.sh
+[5.231s] -- Installing: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/environment/ament_prefix_path.dsv
+[5.231s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/environment/path.sh
+[5.231s] -- Installing: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/environment/path.dsv
+[5.231s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/local_setup.bash
+[5.231s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/local_setup.sh
+[5.231s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/local_setup.zsh
+[5.231s] -- Installing: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/local_setup.dsv
+[5.231s] -- Installing: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/package.dsv
+[5.231s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/ament_index/resource_index/packages/Kinesiology_arm_rclcpp
+[5.231s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/cmake/Kinesiology_arm_rclcppConfig.cmake
+[5.231s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/cmake/Kinesiology_arm_rclcppConfig-version.cmake
+[5.231s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/package.xml
+[5.232s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp' returned '0': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp

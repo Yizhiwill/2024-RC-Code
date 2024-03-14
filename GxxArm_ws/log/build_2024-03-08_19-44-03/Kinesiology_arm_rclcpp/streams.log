@@ -1,0 +1,33 @@
+[0.056s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20
+[0.078s] [35m[1mConsolidate compiler generated dependencies of target arm_kinesiology_client[0m
+[0.085s] [ 25%] [32mBuilding CXX object CMakeFiles/arm_kinesiology_server.dir/src/arm_kinesiology_server.cpp.o[0m
+[0.088s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_kinesiology_client.dir/src/arm_kinesiology_client.cpp.o[0m
+[3.010s] [ 75%] [32m[1mLinking CXX executable arm_kinesiology_server[0m
+[3.112s] [ 75%] Built target arm_kinesiology_server
+[3.850s] [100%] [32m[1mLinking CXX executable arm_kinesiology_client[0m
+[3.997s] [100%] Built target arm_kinesiology_client
+[4.004s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp' returned '0': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20
+[4.018s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp
+[4.022s] -- Install configuration: ""
+[4.022s] -- Installing: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_kinesiology_server
+[4.023s] -- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_kinesiology_server" to ""
+[4.023s] -- Installing: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_kinesiology_client
+[4.025s] -- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_kinesiology_client" to ""
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/launch
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/launch/IK.launch.py
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/ament_index/resource_index/package_run_dependencies/Kinesiology_arm_rclcpp
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/ament_index/resource_index/parent_prefix_path/Kinesiology_arm_rclcpp
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/environment/ament_prefix_path.sh
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/environment/ament_prefix_path.dsv
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/environment/path.sh
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/environment/path.dsv
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/local_setup.bash
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/local_setup.sh
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/local_setup.zsh
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/local_setup.dsv
+[4.025s] -- Installing: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/package.dsv
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/ament_index/resource_index/packages/Kinesiology_arm_rclcpp
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/cmake/Kinesiology_arm_rclcppConfig.cmake
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/cmake/Kinesiology_arm_rclcppConfig-version.cmake
+[4.025s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/package.xml
+[4.026s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp' returned '0': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp

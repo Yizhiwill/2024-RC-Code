@@ -1,0 +1,5 @@
+[ 50%] Built target Serial_ReadPub
+[100%] Built target Serial_WriteSub
+-- Install configuration: ""
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_ReadPub
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_WriteSub

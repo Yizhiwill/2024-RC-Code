@@ -1,0 +1,4 @@
+source;share/Kinesiology_arm_rclcpp/local_setup.bash
+source;share/Kinesiology_arm_rclcpp/local_setup.dsv
+source;share/Kinesiology_arm_rclcpp/local_setup.sh
+source;share/Kinesiology_arm_rclcpp/local_setup.zsh

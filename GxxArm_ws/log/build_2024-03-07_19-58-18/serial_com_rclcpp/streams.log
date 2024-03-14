@@ -1,0 +1,5 @@
+[0.030s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp -- -j20 -l20
+[0.059s] [ 75%] [32mBuilding CXX object CMakeFiles/Serial_WriteSub.dir/src/Serial_WriteSub.cpp.o[0m
+[0.059s] [ 75%] Built target Serial_ReadPub
+[4.223s] [100%] [32m[1mLinking CXX executable Serial_WriteSub[0m
+[4.425s] [100%] Built target Serial_WriteSub

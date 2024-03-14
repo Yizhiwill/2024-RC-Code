@@ -1,0 +1,4 @@
+[35m[1mConsolidate compiler generated dependencies of target Serial_ReadPub[0m
+[35m[1mConsolidate compiler generated dependencies of target Serial_WriteSub[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Serial_WriteSub.dir/src/Serial_WriteSub.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Serial_ReadPub.dir/src/Serial_ReadPub.cpp.o[0m

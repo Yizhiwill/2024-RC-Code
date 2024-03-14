@@ -1,0 +1,76 @@
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:[m[K In member function ‘[01m[Kvoid InterfacesArm::timer_callback()[m[K’:
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:47:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing RobotPose = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle1[m[K’; did you mean ‘[01m[Kreal_arm_angle1[m[K’?
+   47 |     message.[01;31m[Karm_angle1[m[K = RecDate.Arm_Angle1;
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kreal_arm_angle1[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:48:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing RobotPose = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle2[m[K’; did you mean ‘[01m[Kreal_arm_angle2[m[K’?
+   48 |     message.[01;31m[Karm_angle2[m[K = RecDate.Arm_Angle2;
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kreal_arm_angle2[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:49:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing RobotPose = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle3[m[K’; did you mean ‘[01m[Kreal_arm_angle3[m[K’?
+   49 |     message.[01;31m[Karm_angle3[m[K = RecDate.Arm_Angle3;
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kreal_arm_angle3[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:50:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing RobotPose = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle4[m[K’; did you mean ‘[01m[Kreal_arm_angle4[m[K’?
+   50 |     message.[01;31m[Karm_angle4[m[K = RecDate.Arm_Angle4;
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kreal_arm_angle4[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:51:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing RobotPose = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle5[m[K’; did you mean ‘[01m[Kreal_arm_angle5[m[K’?
+   51 |     message.[01;31m[Karm_angle5[m[K = RecDate.Arm_Angle5;
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kreal_arm_angle5[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:52:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing RobotPose = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle6[m[K’; did you mean ‘[01m[Kreal_arm_angle6[m[K’?
+   52 |     message.[01;31m[Karm_angle6[m[K = RecDate.Arm_Angle6;
+      |             [01;31m[K^~~~~~~~~~[m[K
+      |             [32m[Kreal_arm_angle6[m[K
+In file included from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/logging.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/client.hpp:40[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/callback_group.hpp:24[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/any_executable.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategy.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/memory_strategies.hpp:18[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor_options.hpp:20[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executor.hpp:37[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors/multi_threaded_executor.hpp:25[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/executors.hpp:21[m[K,
+                 from [01m[K/opt/ros/humble/include/rclcpp/rclcpp/rclcpp.hpp:155[m[K,
+                 from [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:12[m[K:
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:54:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing RobotPose = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle1[m[K’; did you mean ‘[01m[Kreal_arm_angle1[m[K’?
+   54 |                 message.[01;31m[Karm_angle1[m[K, message.arm_angle2, message.arm_angle3,
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:54:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing RobotPose = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle2[m[K’; did you mean ‘[01m[Kreal_arm_angle2[m[K’?
+   54 |                 message.arm_angle1, message.[01;31m[Karm_angle2[m[K, message.arm_angle3,
+      |                                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:54:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing RobotPose = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle3[m[K’; did you mean ‘[01m[Kreal_arm_angle3[m[K’?
+   54 |             message.arm_angle1, message.arm_angle2, message.[01;31m[Karm_angle3[m[K,
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:55:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing RobotPose = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle4[m[K’; did you mean ‘[01m[Kreal_arm_angle4[m[K’?
+   55 |                 message.[01;31m[Karm_angle4[m[K, message.arm_angle5, message.arm_angle6);
+      |                         [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:55:45:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing RobotPose = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle5[m[K’; did you mean ‘[01m[Kreal_arm_angle5[m[K’?
+   55 |                 message.arm_angle4, message.[01;31m[Karm_angle5[m[K, message.arm_angle6);
+      |                                             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:55:65:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing RobotPose = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle6[m[K’; did you mean ‘[01m[Kreal_arm_angle6[m[K’?
+   55 |             message.arm_angle4, message.arm_angle5, message.[01;31m[Karm_angle6[m[K);
+      |                                                             [01;31m[K^~~~~~~~~~[m[K
+
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_WriteSub.cpp:[m[K In member function ‘[01m[Kvoid InterfacesControl::robot_status_callback_(base_interfaces::msg::RobotPose_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_WriteSub.cpp:42:35:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle1[m[K’; did you mean ‘[01m[Kreal_arm_angle1[m[K’?
+   42 |     port.Serial_Sen_Callback(msg->[01;31m[Karm_angle1[m[K,msg->arm_angle2,msg->arm_angle3);
+      |                                   [01;31m[K^~~~~~~~~~[m[K
+      |                                   [32m[Kreal_arm_angle1[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_WriteSub.cpp:42:51:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle2[m[K’; did you mean ‘[01m[Kreal_arm_angle2[m[K’?
+   42 |     port.Serial_Sen_Callback(msg->arm_angle1,msg->[01;31m[Karm_angle2[m[K,msg->arm_angle3);
+      |                                                   [01;31m[K^~~~~~~~~~[m[K
+      |                                                   [32m[Kreal_arm_angle2[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_WriteSub.cpp:42:67:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing element_type = struct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct base_interfaces::msg::RobotPose_<std::allocator<void> >[m[K’} has no member named ‘[01m[Karm_angle3[m[K’; did you mean ‘[01m[Kreal_arm_angle3[m[K’?
+   42 |     port.Serial_Sen_Callback(msg->arm_angle1,msg->arm_angle2,msg->[01;31m[Karm_angle3[m[K);
+      |                                                                   [01;31m[K^~~~~~~~~~[m[K
+      |                                                                   [32m[Kreal_arm_angle3[m[K
+gmake[2]: *** [CMakeFiles/Serial_ReadPub.dir/build.make:76: CMakeFiles/Serial_ReadPub.dir/src/Serial_ReadPub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/Serial_ReadPub.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+gmake[2]: *** [CMakeFiles/Serial_WriteSub.dir/build.make:76: CMakeFiles/Serial_WriteSub.dir/src/Serial_WriteSub.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/Serial_WriteSub.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

@@ -1,0 +1,22 @@
+[0.045s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target arm_IK_server[0m
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target arm_FK_server[0m
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target arm_FK_client[0m
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target arm_IK_client[0m
+[0.072s] [ 25%] [32m[1mLinking CXX executable arm_FK_client[0m
+[0.073s] [ 25%] [32m[1mLinking CXX executable arm_FK_server[0m
+[0.077s] [ 50%] Built target arm_IK_server
+[0.077s] [ 75%] Built target arm_IK_client
+[0.107s] /usr/bin/ld/usr/bin/ld: : /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o/usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `: in function `_start_start':
+[0.107s] ':
+[0.107s] ((.text.text+0x+0x1b1b)): undefined reference to `: undefined reference to `mainmain'
+[0.107s] '
+[0.108s] collect2: error: ld returned 1 exit status
+[0.108s] collect2: error: ld returned 1 exit status
+[0.109s] gmake[2]: *** [CMakeFiles/arm_FK_client.dir/build.make:175: arm_FK_client] Error 1
+[0.109s] gmake[2]: *** [CMakeFiles/arm_FK_server.dir/build.make:175: arm_FK_server] Error 1
+[0.109s] gmake[1]: *** [CMakeFiles/Makefile2:143: CMakeFiles/arm_FK_server.dir/all] Error 2
+[0.109s] gmake[1]: *** Waiting for unfinished jobs....
+[0.109s] gmake[1]: *** [CMakeFiles/Makefile2:169: CMakeFiles/arm_FK_client.dir/all] Error 2
+[0.109s] gmake: *** [Makefile:146: all] Error 2
+[0.123s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp' returned '2': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20

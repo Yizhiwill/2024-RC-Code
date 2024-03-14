@@ -1,0 +1,4 @@
+/home/vol/willgit/GxxArm_ws/build/base_interfaces/rosidl_adapter/base_interfaces:msg/RobotPose.idl
+/home/vol/willgit/GxxArm_ws/build/base_interfaces/rosidl_adapter/base_interfaces:msg/RobotStatus.idl
+/home/vol/willgit/GxxArm_ws/build/base_interfaces/rosidl_adapter/base_interfaces:srv/ArmAngle.idl
+/home/vol/willgit/GxxArm_ws/build/base_interfaces/rosidl_adapter/base_interfaces:srv/VisionAngle.idl

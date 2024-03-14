@@ -1,0 +1,22 @@
+// generated from rosidl_adapter/resource/msg.idl.em
+// with input from base_interfaces/msg/RobotPose.msg
+// generated code does not contain a copyright notice
+
+
+module base_interfaces {
+  module msg {
+    struct RobotPose {
+      float arm_angle1;
+
+      float arm_angle2;
+
+      float arm_angle3;
+
+      float arm_angle4;
+
+      float arm_angle5;
+
+      float arm_angle6;
+    };
+  };
+};

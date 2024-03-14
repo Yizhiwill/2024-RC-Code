@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="serial_com_rclcpp.xmllint"
+  tests="5"
+  errors="0"
+  failures="0"
+  time="1.379"
+>
+  <testcase
+    name="package.xml"
+    classname="serial_com_rclcpp.xmllint"/>
+  <testcase
+    name="cmake-build-debug/test_results/serial_com_rclcpp/cppcheck.xunit.xml"
+    classname="serial_com_rclcpp.xmllint"/>
+  <testcase
+    name="cmake-build-debug/test_results/serial_com_rclcpp/lint_cmake.xunit.xml"
+    classname="serial_com_rclcpp.xmllint"/>
+  <testcase
+    name="cmake-build-debug/test_results/serial_com_rclcpp/uncrustify.xunit.xml"
+    classname="serial_com_rclcpp.xmllint"/>
+  <testcase
+    name="cmake-build-debug/test_results/serial_com_rclcpp/xmllint.xunit.xml"
+    classname="serial_com_rclcpp.xmllint"/>
+  <system-out>Checked files:
+* package.xml
+* cmake-build-debug/test_results/serial_com_rclcpp/cppcheck.xunit.xml
+* cmake-build-debug/test_results/serial_com_rclcpp/lint_cmake.xunit.xml
+* cmake-build-debug/test_results/serial_com_rclcpp/uncrustify.xunit.xml
+* cmake-build-debug/test_results/serial_com_rclcpp/xmllint.xunit.xml</system-out>
+</testsuite>

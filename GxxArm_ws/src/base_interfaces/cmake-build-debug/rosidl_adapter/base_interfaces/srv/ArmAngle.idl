@@ -1,0 +1,19 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from base_interfaces/srv/ArmAngle.srv
+// generated code does not contain a copyright notice
+
+
+module base_interfaces {
+  module srv {
+    struct ArmAngle_Request {
+      string name;
+
+      uint32 money;
+    };
+    struct ArmAngle_Response {
+      boolean success;
+
+      uint32 money;
+    };
+  };
+};

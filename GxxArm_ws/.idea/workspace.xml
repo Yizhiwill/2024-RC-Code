@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="CMakePresetLoader">{
+  &quot;useNewFormat&quot;: true
+}</component>
+  <component name="CMakeReloadState">
+    <option name="reloaded" value="true" />
+  </component>
+  <component name="CMakeRunConfigurationManager">
+    <generated>
+      <config projectName="serial_com_rclcpp" targetName="Serial_WriteSub" />
+      <config projectName="serial_com_rclcpp" targetName="uninstall" />
+      <config projectName="serial_com_rclcpp" targetName="Serial_ReadPub" />
+      <config projectName="serial_com_rclcpp" targetName="serial_com_rclcpp_uninstall" />
+    </generated>
+  </component>
+  <component name="CMakeSettings">
+    <configurations>
+      <configuration PROFILE_NAME="Debug" ENABLED="true" CONFIG_NAME="Debug" />
+    </configurations>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="cb3992dc-4c3e-47da-9136-249970393a09" name="更改" comment="V2.0 0312" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="CMakeBuildProfile:Debug" />
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Yizhiwill &lt;willzou1129@gmail.com&gt;" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;Yizhiwill&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="da27c82f-4c66-4184-aca7-1f4f2e82c53b" />
+        <option name="url" value="git@github.com:Yizhiwill/2024-RC-Code.git" />
+      </UrlAndAccount>
+    </option>
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProjectApplicationVersion">
+    <option name="ide" value="CLion" />
+    <option name="majorVersion" value="2023" />
+    <option name="minorVersion" value="3.2" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 4
+}</component>
+  <component name="ProjectId" id="2atwQCRVgoAD5jW7NlCfaN3tzu2" />
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;CMake 应用程序.Serial_ReadPub.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.Serial_WriteSub.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.arm_kinesiology.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.arm_kinesiology_client.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.arm_kinesiology_server.executor&quot;: &quot;Debug&quot;,
+    &quot;CMake 应用程序.serial_pub.executor&quot;: &quot;Run&quot;,
+    &quot;CMake 应用程序.serial_sub.executor&quot;: &quot;Run&quot;,
+    &quot;CTest 应用程序.所有 CTest.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.readMode.enableVisualFormatting&quot;: &quot;true&quot;,
+    &quot;cf.advertisement.text.overridden&quot;: &quot;true&quot;,
+    &quot;cf.first.check.clang-format&quot;: &quot;false&quot;,
+    &quot;cidr.known.project.marker&quot;: &quot;true&quot;,
+    &quot;ctest.advertisement.all.test.configuration.is.created&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/vol/willgit/GxxArm_ws&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;CMakeSettings&quot;,
+    &quot;structure.view.defaults.are.configured&quot;: &quot;true&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  }
+}</component>
+  <component name="RunManager" selected="CMake 应用程序.Serial_ReadPub">
+    <configuration name="Serial_ReadPub" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="serial_com_rclcpp" TARGET_NAME="Serial_ReadPub" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="serial_com_rclcpp" RUN_TARGET_NAME="Serial_ReadPub">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Serial_WriteSub" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="serial_com_rclcpp" TARGET_NAME="Serial_WriteSub" CONFIG_NAME="Debug" RUN_TARGET_PROJECT_NAME="serial_com_rclcpp" RUN_TARGET_NAME="Serial_WriteSub">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="serial_com_rclcpp_uninstall" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="serial_com_rclcpp" TARGET_NAME="serial_com_rclcpp_uninstall" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="uninstall" type="CMakeRunConfiguration" factoryName="Application" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" PASS_PARENT_ENVS_2="true" PROJECT_NAME="serial_com_rclcpp" TARGET_NAME="uninstall" CONFIG_NAME="Debug">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="所有 CTest" type="CTestRunConfiguration" factoryName="CTestRun" PROGRAM_PARAMS="--extra-verbose" REDIRECT_INPUT="false" ELEVATE="false" USE_EXTERNAL_CONSOLE="false" EMULATE_TERMINAL="false" WORKING_DIR="file://$CMakeCurrentLocalGenerationDir$" PASS_PARENT_ENVS_2="true" CONFIG_NAME="Debug" RUN_PATH="$CTestCurrentExecutableName$" EXPLICIT_BUILD_TARGET_NAME="all" TEST_MODE="SUITE_TEST">
+      <method v="2">
+        <option name="com.jetbrains.cidr.execution.CidrBuildBeforeRunTaskProvider$BuildBeforeRunTask" enabled="true" />
+        <option name="BeforeTestRunTask" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="CMake 应用程序.Serial_ReadPub" />
+      <item itemvalue="CMake 应用程序.Serial_WriteSub" />
+      <item itemvalue="CMake 应用程序.serial_com_rclcpp_uninstall" />
+      <item itemvalue="CMake 应用程序.uninstall" />
+      <item itemvalue="CTest 应用程序.所有 CTest" />
+    </list>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="应用程序级" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="默认任务">
+      <changelist id="cb3992dc-4c3e-47da-9136-249970393a09" name="更改" comment="" />
+      <created>1705151164256</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1705151164256</updated>
+      <workItem from="1705151165301" duration="5227000" />
+      <workItem from="1705194162219" duration="5868000" />
+      <workItem from="1705201523079" duration="1670000" />
+      <workItem from="1705383766117" duration="4519000" />
+      <workItem from="1705390526068" duration="1951000" />
+      <workItem from="1705393488084" duration="1177000" />
+      <workItem from="1705394748434" duration="9266000" />
+      <workItem from="1705413338225" duration="1485000" />
+      <workItem from="1705414867535" duration="796000" />
+      <workItem from="1705453097381" duration="1000" />
+      <workItem from="1705453198397" duration="3162000" />
+      <workItem from="1705459414518" duration="13466000" />
+      <workItem from="1705538726244" duration="4031000" />
+      <workItem from="1705630340811" duration="14769000" />
+      <workItem from="1705905566487" duration="58000" />
+      <workItem from="1707306485110" duration="155000" />
+      <workItem from="1707306658519" duration="19000" />
+      <workItem from="1709449565345" duration="918000" />
+      <workItem from="1709450568455" duration="5019000" />
+      <workItem from="1709801728532" duration="2187000" />
+      <workItem from="1709803963873" duration="2037000" />
+      <workItem from="1709806680950" duration="488000" />
+      <workItem from="1709808704450" duration="3167000" />
+      <workItem from="1709884182397" duration="4189000" />
+      <workItem from="1709898734060" duration="1287000" />
+      <workItem from="1709900057187" duration="732000" />
+      <workItem from="1709901603882" duration="1522000" />
+      <workItem from="1709966856153" duration="355000" />
+      <workItem from="1709968475427" duration="5786000" />
+      <workItem from="1710036337908" duration="6794000" />
+      <workItem from="1710226937455" duration="4124000" />
+      <workItem from="1710231192675" duration="2659000" />
+      <workItem from="1710323802470" duration="1500000" />
+      <workItem from="1710417589515" duration="1000" />
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <option name="closed" value="true" />
+      <created>1705457373697</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1705457373697</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="UnknownFeatures">
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.srv" />
+    <option featureType="com.intellij.fileTypeFactory" implementationName="*.msg" />
+  </component>
+  <component name="VCPKGProject">
+    <isAutomaticCheckingOnLaunch value="false" />
+    <isAutomaticFoundErrors value="true" />
+    <isAutomaticReloadCMake value="true" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="first commit" />
+    <option name="REFORMAT_BEFORE_PROJECT_COMMIT" value="true" />
+    <option name="REARRANGE_BEFORE_PROJECT_COMMIT" value="true" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
+          <url>file://$PROJECT_DIR$/src/serial_com_rclcpp/launch/serial.launch.py</url>
+          <line>1</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>

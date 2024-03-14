@@ -1,0 +1,9 @@
+{
+  "package_name": "base_interfaces",
+  "non_idl_tuples": [
+    "/home/vol/willgit/GxxArm_ws/src/base_interfaces:msg/RobotPose.msg",
+    "/home/vol/willgit/GxxArm_ws/src/base_interfaces:msg/RobotStatus.msg",
+    "/home/vol/willgit/GxxArm_ws/src/base_interfaces:srv/ArmAngle.srv",
+    "/home/vol/willgit/GxxArm_ws/src/base_interfaces:srv/VisionAngle.srv"
+  ]
+}

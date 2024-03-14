@@ -1,0 +1,8 @@
+[35m[1mConsolidate compiler generated dependencies of target arm_IK_server[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_FK_server[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_FK_client[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_IK_client[0m
+[ 25%] [32m[1mLinking CXX executable arm_FK_client[0m
+[ 25%] [32m[1mLinking CXX executable arm_FK_server[0m
+[ 50%] Built target arm_IK_server
+[ 75%] Built target arm_IK_client

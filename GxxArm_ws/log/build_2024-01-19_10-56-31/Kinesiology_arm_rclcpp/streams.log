@@ -1,0 +1,51 @@
+[0.044s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target arm_kinesiology_server[0m
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target arm_kinesiology_client[0m
+[0.075s] [ 25%] [32m[1mLinking CXX executable arm_kinesiology_client[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_kinesiology_server.dir/src/arm_kinesiology_server.cpp.o[0m
+[0.141s] [ 75%] Built target arm_kinesiology_client
+[1.695s] In file included from [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_kinesiology_server.cpp:13[m[K:
+[1.695s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/include/kinesiology_arm_rclcpp/Kinesiology_arm.hpp:[m[K In function ‘[01m[Kdouble* arm_Ik(double, double, double, double, double, double)[m[K’:
+[1.695s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/include/kinesiology_arm_rclcpp/Kinesiology_arm.hpp:78:13:[m[K [01;35m[Kwarning: [m[Kvariable ‘[01m[Kb[m[K’ set but not used [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-but-set-variable-Wunused-but-set-variable]8;;[m[K]
+[1.695s]    78 |   double a, [01;35m[Kb[m[K, c, t;
+[1.696s]       |             [01;35m[K^[m[K
+[1.696s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/include/kinesiology_arm_rclcpp/Kinesiology_arm.hpp:78:16:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kc[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.696s]    78 |   double a, b, [01;35m[Kc[m[K, t;
+[1.696s]       |                [01;35m[K^[m[K
+[1.696s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/include/kinesiology_arm_rclcpp/Kinesiology_arm.hpp:79:10:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ku1[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.696s]    79 |   double [01;35m[Ku1[m[K = 0, u2 = 0; // ÒýÈë±äÁ¿u1 u2
+[1.696s]       |          [01;35m[K^~[m[K
+[1.696s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/include/kinesiology_arm_rclcpp/Kinesiology_arm.hpp:79:18:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ku2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.696s]    79 |   double u1 = 0, [01;35m[Ku2[m[K = 0; // ÒýÈë±äÁ¿u1 u2
+[1.696s]       |                  [01;35m[K^~[m[K
+[1.696s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/include/kinesiology_arm_rclcpp/Kinesiology_arm.hpp:80:35:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle3_result2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.696s]    80 |   double angle23, angle3_result1, [01;35m[Kangle3_result2[m[K, angle2_result1,
+[1.696s]       |                                   [01;35m[K^~~~~~~~~~~~~~[m[K
+[1.696s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/include/kinesiology_arm_rclcpp/Kinesiology_arm.hpp:81:39:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kangle1_result2[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.696s]    81 |       angle2_result2, angle1_result1, [01;35m[Kangle1_result2[m[K;
+[1.696s]       |                                       [01;35m[K^~~~~~~~~~~~~~[m[K
+[2.364s] [100%] [32m[1mLinking CXX executable arm_kinesiology_server[0m
+[2.439s] [100%] Built target arm_kinesiology_server
+[2.446s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp' returned '0': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20
+[2.460s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp
+[2.464s] -- Install configuration: ""
+[2.465s] -- Installing: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_kinesiology_server
+[2.465s] -- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_kinesiology_server" to ""
+[2.465s] -- Installing: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_kinesiology_client
+[2.465s] -- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/lib/Kinesiology_arm_rclcpp/arm_kinesiology_client" to ""
+[2.465s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/ament_index/resource_index/package_run_dependencies/Kinesiology_arm_rclcpp
+[2.465s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/ament_index/resource_index/parent_prefix_path/Kinesiology_arm_rclcpp
+[2.465s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/environment/ament_prefix_path.sh
+[2.466s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/environment/ament_prefix_path.dsv
+[2.466s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/environment/path.sh
+[2.466s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/environment/path.dsv
+[2.466s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/local_setup.bash
+[2.466s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/local_setup.sh
+[2.466s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/local_setup.zsh
+[2.466s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/local_setup.dsv
+[2.466s] -- Installing: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/package.dsv
+[2.466s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/ament_index/resource_index/packages/Kinesiology_arm_rclcpp
+[2.466s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/cmake/Kinesiology_arm_rclcppConfig.cmake
+[2.467s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/cmake/Kinesiology_arm_rclcppConfig-version.cmake
+[2.467s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp/share/Kinesiology_arm_rclcpp/package.xml
+[2.467s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp' returned '0': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp

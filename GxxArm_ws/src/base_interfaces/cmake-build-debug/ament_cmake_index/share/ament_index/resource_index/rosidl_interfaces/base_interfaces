@@ -1,0 +1,6 @@
+msg/RobotPose.idl
+msg/RobotPose.msg
+srv/ArmAngle.idl
+srv/ArmAngle.srv
+srv/ArmAngle_Request.msg
+srv/ArmAngle_Response.msg

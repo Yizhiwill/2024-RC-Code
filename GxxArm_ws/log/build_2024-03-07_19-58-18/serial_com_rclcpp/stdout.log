@@ -1,0 +1,4 @@
+[ 75%] [32mBuilding CXX object CMakeFiles/Serial_WriteSub.dir/src/Serial_WriteSub.cpp.o[0m
+[ 75%] Built target Serial_ReadPub
+[100%] [32m[1mLinking CXX executable Serial_WriteSub[0m
+[100%] Built target Serial_WriteSub

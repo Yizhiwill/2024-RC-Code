@@ -1,0 +1,18 @@
+[0.043s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20
+[0.065s] [35m[1mConsolidate compiler generated dependencies of target arm_kinesiology_server[0m
+[0.071s] [ 25%] [32mBuilding CXX object CMakeFiles/arm_kinesiology_client.dir/src/arm_kinesiology_client.cpp.o[0m
+[0.075s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_kinesiology_server.dir/src/arm_kinesiology_server.cpp.o[0m
+[1.791s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_kinesiology_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[1.791s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_kinesiology_client.cpp:77:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+[1.791s]    77 |   return 0;
+[1.791s]       |            [01;31m[K^[m[K
+[1.791s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_kinesiology_client.cpp:69:33:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+[1.791s]    69 | int main(int argc, char **argv) [01;36m[K{[m[K
+[1.791s]       |                                 [01;36m[K^[m[K
+[2.426s] gmake[2]: *** [CMakeFiles/arm_kinesiology_client.dir/build.make:76: CMakeFiles/arm_kinesiology_client.dir/src/arm_kinesiology_client.cpp.o] Error 1
+[2.426s] gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/arm_kinesiology_client.dir/all] Error 2
+[2.426s] gmake[1]: *** Waiting for unfinished jobs....
+[2.955s] [ 75%] [32m[1mLinking CXX executable arm_kinesiology_server[0m
+[3.051s] [ 75%] Built target arm_kinesiology_server
+[3.052s] gmake: *** [Makefile:146: all] Error 2
+[3.053s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp' returned '2': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20

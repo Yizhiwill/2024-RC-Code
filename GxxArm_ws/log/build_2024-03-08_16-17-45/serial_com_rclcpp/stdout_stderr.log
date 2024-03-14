@@ -1,0 +1,11 @@
+[ 50%] Built target Serial_ReadPub
+[100%] Built target Serial_WriteSub
+-- Install configuration: ""
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_ReadPub
+-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_WriteSub
+[31mCMake Error at cmake_install.cmake:86 (file):
+  file INSTALL cannot find
+  "/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/launch": No such file or
+  directory.
+
+[0m

@@ -1,0 +1,16 @@
+[35m[1mConsolidate compiler generated dependencies of target arm_kinesiology_server[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/arm_kinesiology_client.dir/src/arm_kinesiology_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/arm_kinesiology_server.dir/src/arm_kinesiology_server.cpp.o[0m
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_kinesiology_client.cpp:[m[K In function ‘[01m[Kint main(int, char**)[m[K’:
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_kinesiology_client.cpp:77:12:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K}[m[K’ at end of input
+   77 |   return 0;
+      |            [01;31m[K^[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_kinesiology_client.cpp:69:33:[m[K [01;36m[Knote: [m[Kto match this ‘[01m[K{[m[K’
+   69 | int main(int argc, char **argv) [01;36m[K{[m[K
+      |                                 [01;36m[K^[m[K
+gmake[2]: *** [CMakeFiles/arm_kinesiology_client.dir/build.make:76: CMakeFiles/arm_kinesiology_client.dir/src/arm_kinesiology_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:165: CMakeFiles/arm_kinesiology_client.dir/all] Error 2
+gmake[1]: *** Waiting for unfinished jobs....
+[ 75%] [32m[1mLinking CXX executable arm_kinesiology_server[0m
+[ 75%] Built target arm_kinesiology_server
+gmake: *** [Makefile:146: all] Error 2

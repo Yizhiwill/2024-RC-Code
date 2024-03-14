@@ -1,0 +1,2 @@
+Invoking command in '/home/vol/willgit/GxxArm_ws/build/base_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vol/willgit/GxxArm_ws/src/base_interfaces -DCMAKE_INSTALL_PREFIX=/home/vol/willgit/GxxArm_ws/install/base_interfaces
+Invoked command in '/home/vol/willgit/GxxArm_ws/build/base_interfaces' returned '1': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vol/willgit/GxxArm_ws/src/base_interfaces -DCMAKE_INSTALL_PREFIX=/home/vol/willgit/GxxArm_ws/install/base_interfaces

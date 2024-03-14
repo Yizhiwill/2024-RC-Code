@@ -1,0 +1,18 @@
+[0.027s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/opt/ros/humble /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp -- -j20 -l20
+[0.050s] [35m[1mConsolidate compiler generated dependencies of target Serial_WriteSub[0m
+[0.056s] [ 25%] [32mBuilding CXX object CMakeFiles/Serial_ReadPub.dir/src/Serial_ReadPub.cpp.o[0m
+[0.059s] [ 50%] [32mBuilding CXX object CMakeFiles/Serial_WriteSub.dir/src/Serial_WriteSub.cpp.o[0m
+[1.223s] [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:15:16:[m[K [01;31m[Kerror: [m[Kredefinition of ‘[01m[Kserial::Serial ser[m[K’
+[1.223s]    15 | serial::Serial [01;31m[Kser[m[K;
+[1.223s]       |                [01;31m[K^~~[m[K
+[1.223s] In file included from [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:13[m[K:
+[1.223s] [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include/serial_com_rclcpp/serial_port.hpp:73:16:[m[K [01;36m[Knote: [m[K‘[01m[Kserial::Serial ser[m[K’ previously declared here
+[1.223s]    73 | serial::Serial [01;36m[Kser[m[K;
+[1.223s]       |                [01;36m[K^~~[m[K
+[1.662s] gmake[2]: *** [CMakeFiles/Serial_ReadPub.dir/build.make:76: CMakeFiles/Serial_ReadPub.dir/src/Serial_ReadPub.cpp.o] Error 1
+[1.663s] gmake[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/Serial_ReadPub.dir/all] Error 2
+[1.663s] gmake[1]: *** Waiting for unfinished jobs....
+[4.131s] [ 75%] [32m[1mLinking CXX executable Serial_WriteSub[0m
+[4.327s] [ 75%] Built target Serial_WriteSub
+[4.328s] gmake: *** [Makefile:146: all] Error 2
+[4.329s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp' returned '2': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/opt/ros/humble /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp -- -j20 -l20

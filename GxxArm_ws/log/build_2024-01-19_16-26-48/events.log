@@ -1,0 +1,301 @@
+[0.000000] (-) TimerEvent: {}
+[0.000132] (-) JobUnselected: {'identifier': 'Kinesiology_arm_rclcpp'}
+[0.000147] (-) JobUnselected: {'identifier': 'serial_com_rclcpp'}
+[0.000157] (base_interfaces) JobQueued: {'identifier': 'base_interfaces', 'dependencies': OrderedDict()}
+[0.000166] (base_interfaces) JobStarted: {'identifier': 'base_interfaces'}
+[0.020059] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'cmake'}
+[0.020544] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'build'}
+[0.020717] (base_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/vol/willgit/GxxArm_ws/build/base_interfaces', '--', '-j20', '-l20'], 'cwd': '/home/vol/willgit/GxxArm_ws/build/base_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'vol'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vol'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ec0bb79541c1683882b1679065a9d8c5'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vol'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vol-NUC3:@/tmp/.ICE-unix/1343,unix/vol-NUC3:/tmp/.ICE-unix/1343'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/add7f90c_a6f2_40b1_8465_b9e38380af06'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vol/willgit/GxxArm_ws/build/base_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ec0bb79541c1683882b1679065a9d8c5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.034481] (base_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.099561] (-) TimerEvent: {}
+[0.107738] (base_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)\n'}
+[0.108466] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.109825] (base_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.125385] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.138892] (base_interfaces) StdoutLine: {'line': b'-- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)\n'}
+[0.199631] (-) TimerEvent: {}
+[0.299894] (-) TimerEvent: {}
+[0.343217] (base_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.10.0 (/opt/ros/humble/share/ament_cmake_ros/cmake)\n'}
+[0.400062] (-) TimerEvent: {}
+[0.465091] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.500144] (-) TimerEvent: {}
+[0.600385] (-) TimerEvent: {}
+[0.626938] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.639139] (base_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.10.0 (/opt/ros/humble/share/python_cmake_module/cmake)\n'}
+[0.651016] (base_interfaces) StdoutLine: {'line': b'-- Using PYTHON_EXECUTABLE: /usr/bin/python3\n'}
+[0.651109] (base_interfaces) StdoutLine: {'line': b'-- Using PYTHON_INCLUDE_DIRS: /usr/include/python3.10\n'}
+[0.651138] (base_interfaces) StdoutLine: {'line': b'-- Using PYTHON_LIBRARIES: /usr/lib/x86_64-linux-gnu/libpython3.10.so\n'}
+[0.668302] (base_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)\n'}
+[0.677225] (base_interfaces) StdoutLine: {'line': b"-- Added test 'cppcheck' to perform static code analysis on C / C++ code\n"}
+[0.677401] (base_interfaces) StdoutLine: {'line': b'-- Configured cppcheck include dirs: \n'}
+[0.677433] (base_interfaces) StdoutLine: {'line': b'-- Configured cppcheck exclude dirs and/or files: \n'}
+[0.678474] (base_interfaces) StdoutLine: {'line': b"-- Added test 'flake8' to check Python code syntax and style conventions\n"}
+[0.679927] (base_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[0.680665] (base_interfaces) StdoutLine: {'line': b"-- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257\n"}
+[0.686079] (base_interfaces) StdoutLine: {'line': b"-- Added test 'uncrustify' to check C / C++ code style\n"}
+[0.686109] (base_interfaces) StdoutLine: {'line': b'-- Configured uncrustify additional arguments: \n'}
+[0.686931] (base_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[0.687643] (base_interfaces) StdoutLine: {'line': b'-- Configuring done\n'}
+[0.700469] (-) TimerEvent: {}
+[0.704106] (base_interfaces) StdoutLine: {'line': b'-- Generating done\n'}
+[0.705382] (base_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/vol/willgit/GxxArm_ws/build/base_interfaces\n'}
+[0.719383] (base_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[0.724494] (base_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[0.729750] (base_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_copy_base_interfaces\n'}
+[0.800563] (-) TimerEvent: {}
+[0.856967] (base_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[0.857514] (base_interfaces) StdoutLine: {'line': b'writing base_interfaces.egg-info/PKG-INFO\n'}
+[0.857761] (base_interfaces) StdoutLine: {'line': b'writing dependency_links to base_interfaces.egg-info/dependency_links.txt\n'}
+[0.857866] (base_interfaces) StdoutLine: {'line': b'writing top-level names to base_interfaces.egg-info/top_level.txt\n'}
+[0.858958] (base_interfaces) StdoutLine: {'line': b"reading manifest file 'base_interfaces.egg-info/SOURCES.txt'\n"}
+[0.859113] (base_interfaces) StdoutLine: {'line': b"writing manifest file 'base_interfaces.egg-info/SOURCES.txt'\n"}
+[0.874411] (base_interfaces) StdoutLine: {'line': b'[  5%] Built target ament_cmake_python_build_base_interfaces_egg\n'}
+[0.900671] (-) TimerEvent: {}
+[0.906268] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_generator_c\x1b[0m\n'}
+[0.908253] (base_interfaces) StdoutLine: {'line': b'[  5%] Built target base_interfaces__cpp\n'}
+[0.912945] (base_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/msg/detail/robot_pose__functions.c.o\x1b[0m\n'}
+[0.913078] (base_interfaces) StdoutLine: {'line': b'[ 10%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/srv/detail/arm_angle__functions.c.o\x1b[0m\n'}
+[0.913973] (base_interfaces) StdoutLine: {'line': b'[ 12%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[0.914080] (base_interfaces) StdoutLine: {'line': b'[ 15%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.914133] (base_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[0.949893] (base_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[0.973943] (base_interfaces) StdoutLine: {'line': b'[ 20%] Built target base_interfaces__rosidl_generator_c\n'}
+[0.980312] (base_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[0.980495] (base_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[0.980572] (base_interfaces) StdoutLine: {'line': b'[ 28%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[1.000884] (-) TimerEvent: {}
+[1.088524] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_cpp\x1b[0m\n'}
+[1.097637] (base_interfaces) StdoutLine: {'line': b'[ 30%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces/msg/robot_pose__type_support.cpp.o\x1b[0m\n'}
+[1.099543] (base_interfaces) StdoutLine: {'line': b'[ 33%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces/srv/arm_angle__type_support.cpp.o\x1b[0m\n'}
+[1.100989] (-) TimerEvent: {}
+[1.102521] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_introspection_cpp\x1b[0m\n'}
+[1.112820] (base_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces/srv/detail/arm_angle__type_support.cpp.o\x1b[0m\n'}
+[1.113046] (base_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces/msg/detail/robot_pose__type_support.cpp.o\x1b[0m\n'}
+[1.121388] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_fastrtps_cpp\x1b[0m\n'}
+[1.132763] (base_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces/msg/detail/dds_fastrtps/robot_pose__type_support.cpp.o\x1b[0m\n'}
+[1.134565] (base_interfaces) StdoutLine: {'line': b'[ 43%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces/srv/detail/dds_fastrtps/arm_angle__type_support.cpp.o\x1b[0m\n'}
+[1.167496] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_c\x1b[0m\n'}
+[1.177530] (base_interfaces) StdoutLine: {'line': b'[ 46%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces/msg/robot_pose__type_support.cpp.o\x1b[0m\n'}
+[1.179445] (base_interfaces) StdoutLine: {'line': b'[ 48%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces/srv/arm_angle__type_support.cpp.o\x1b[0m\n'}
+[1.200044] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_introspection_c\x1b[0m\n'}
+[1.201081] (-) TimerEvent: {}
+[1.208353] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_fastrtps_c\x1b[0m\n'}
+[1.209272] (base_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces/srv/detail/arm_angle__type_support.c.o\x1b[0m\n'}
+[1.209394] (base_interfaces) StdoutLine: {'line': b'[ 53%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces/msg/detail/robot_pose__type_support.c.o\x1b[0m\n'}
+[1.211909] (base_interfaces) StdoutLine: {'line': b'[ 56%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[1.220359] (base_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces/msg/detail/robot_pose__type_support_c.cpp.o\x1b[0m\n'}
+[1.221543] (base_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces/srv/detail/arm_angle__type_support_c.cpp.o\x1b[0m\n'}
+[1.238983] (base_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[1.258996] (base_interfaces) StdoutLine: {'line': b'[ 64%] Built target base_interfaces__rosidl_typesupport_c\n'}
+[1.265950] (base_interfaces) StdoutLine: {'line': b'[ 64%] Built target base_interfaces__rosidl_typesupport_introspection_c\n'}
+[1.297327] (base_interfaces) StdoutLine: {'line': b'[ 66%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[1.301326] (-) TimerEvent: {}
+[1.328744] (base_interfaces) StdoutLine: {'line': b'[ 66%] Built target base_interfaces__rosidl_typesupport_cpp\n'}
+[1.379429] (base_interfaces) StdoutLine: {'line': b'[ 69%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[1.401473] (-) TimerEvent: {}
+[1.406874] (base_interfaces) StdoutLine: {'line': b'[ 69%] Built target base_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[1.447647] (base_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[1.447790] (base_interfaces) StdoutLine: {'line': b'[ 74%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[1.489721] (base_interfaces) StdoutLine: {'line': b'[ 74%] Built target base_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[1.489868] (base_interfaces) StdoutLine: {'line': b'[ 74%] Built target base_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[1.499913] (base_interfaces) StdoutLine: {'line': b'[ 74%] Built target base_interfaces\n'}
+[1.501636] (-) TimerEvent: {}
+[1.509711] (base_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[1.601834] (-) TimerEvent: {}
+[1.702107] (-) TimerEvent: {}
+[1.734842] (base_interfaces) StdoutLine: {'line': b'[ 76%] Built target base_interfaces__py\n'}
+[1.739876] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_generator_py\x1b[0m\n'}
+[1.746429] (base_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces/msg/_robot_pose_s.c.o\x1b[0m\n'}
+[1.746517] (base_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces/srv/_arm_angle_s.c.o\x1b[0m\n'}
+[1.801058] (base_interfaces) StdoutLine: {'line': b'[ 84%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces/libbase_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[1.802201] (-) TimerEvent: {}
+[1.822831] (base_interfaces) StdoutLine: {'line': b'[ 84%] Built target base_interfaces__rosidl_generator_py\n'}
+[1.828241] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_fastrtps_c__pyext\x1b[0m\n'}
+[1.828367] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_introspection_c__pyext\x1b[0m\n'}
+[1.828411] (base_interfaces) StdoutLine: {'line': b'\x1b[35m\x1b[1mConsolidate compiler generated dependencies of target base_interfaces__rosidl_typesupport_c__pyext\x1b[0m\n'}
+[1.835360] (base_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c__pyext.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[1.835483] (base_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c__pyext.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[1.835520] (base_interfaces) StdoutLine: {'line': b'[ 92%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_c__pyext.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[1.888925] (base_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.889076] (base_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.889110] (base_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared library rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\x1b[0m\n'}
+[1.902330] (-) TimerEvent: {}
+[1.911319] (base_interfaces) StdoutLine: {'line': b'[100%] Built target base_interfaces__rosidl_typesupport_introspection_c__pyext\n'}
+[1.911463] (base_interfaces) StdoutLine: {'line': b'[100%] Built target base_interfaces__rosidl_typesupport_c__pyext\n'}
+[1.911496] (base_interfaces) StdoutLine: {'line': b'[100%] Built target base_interfaces__rosidl_typesupport_fastrtps_c__pyext\n'}
+[1.918120] (base_interfaces) CommandEnded: {'returncode': 0}
+[1.952439] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'install'}
+[1.956756] (base_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/vol/willgit/GxxArm_ws/build/base_interfaces'], 'cwd': '/home/vol/willgit/GxxArm_ws/build/base_interfaces', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('no_proxy', 'localhost,127.0.0.0/8,::1'), ('USER', 'vol'), ('LC_TIME', 'zh_CN.UTF-8'), ('all_proxy', 'socks://127.0.0.1:7890/'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/vol'), ('DESKTOP_SESSION', 'ubuntu'), ('NO_PROXY', 'localhost,127.0.0.0/8,::1'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'zh_CN.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1343'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ec0bb79541c1683882b1679065a9d8c5'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'vol'), ('ALL_PROXY', 'socks://127.0.0.1:7890/'), ('http_proxy', 'http://127.0.0.1:7890/'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'vol'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/vol-NUC3:@/tmp/.ICE-unix/1343,unix/vol-NUC3:/tmp/.ICE-unix/1343'), ('PAPERSIZE', 'a4'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'zh_CN.UTF-8'), ('ftp_proxy', 'http://127.0.0.1:7890/'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/add7f90c_a6f2_40b1_8465_b9e38380af06'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'zh_CN.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.114'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'zh_CN.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'zh_CN.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'zh_CN.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/vol/willgit/GxxArm_ws/build/base_interfaces'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('FTP_PROXY', 'http://127.0.0.1:7890/'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=ec0bb79541c1683882b1679065a9d8c5'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('HTTP_PROXY', 'http://127.0.0.1:7890/'), ('LC_NUMERIC', 'zh_CN.UTF-8'), ('LC_PAPER', 'zh_CN.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.961169] (base_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[1.961254] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/ament_index/resource_index/rosidl_interfaces/base_interfaces\n'}
+[1.961293] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[1.961320] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[1.961347] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[1.961375] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/arm_angle__struct.h\n'}
+[1.961418] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/arm_angle__functions.c\n'}
+[1.961449] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/arm_angle__type_support.h\n'}
+[1.961473] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/arm_angle__functions.h\n'}
+[1.961512] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/arm_angle.h\n'}
+[1.961544] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[1.961574] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[1.961606] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot_pose__struct.h\n'}
+[1.961639] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot_pose__type_support.h\n'}
+[1.961665] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot_pose__functions.c\n'}
+[1.961701] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot_pose__functions.h\n'}
+[1.961724] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/robot_pose.h\n'}
+[1.961747] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[1.961769] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/environment/library_path.sh\n'}
+[1.961794] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/environment/library_path.dsv\n'}
+[1.961824] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so\n'}
+[1.962104] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so" to ""\n'}
+[1.962170] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[1.962196] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[1.962232] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[1.962275] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/arm_angle__rosidl_typesupport_fastrtps_c.h\n'}
+[1.962301] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[1.962326] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[1.962358] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_c.h\n'}
+[1.962384] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[1.962419] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[1.962508] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[1.962547] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[1.962574] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[1.962607] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[1.962641] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/arm_angle__type_support.c\n'}
+[1.962672] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/arm_angle__rosidl_typesupport_introspection_c.h\n'}
+[1.962708] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[1.962732] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[1.962763] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot_pose__type_support.c\n'}
+[1.962794] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_c.h\n'}
+[1.962817] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[1.962850] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[1.962972] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[1.963025] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so\n'}
+[1.963137] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[1.963188] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[1.963227] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[1.963252] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[1.963278] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/arm_angle__struct.hpp\n'}
+[1.963312] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/arm_angle__traits.hpp\n'}
+[1.963335] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/arm_angle__builder.hpp\n'}
+[1.963364] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/arm_angle.hpp\n'}
+[1.963395] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[1.963430] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[1.963468] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot_pose__struct.hpp\n'}
+[1.963492] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot_pose__builder.hpp\n'}
+[1.963524] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot_pose__traits.hpp\n'}
+[1.963557] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/robot_pose.hpp\n'}
+[1.963600] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[1.963640] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[1.963664] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[1.963688] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/arm_angle__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.963722] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/dds_fastrtps\n'}
+[1.963764] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[1.963789] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[1.963814] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot_pose__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[1.963839] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/dds_fastrtps\n'}
+[1.963874] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[1.963896] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[1.963969] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[1.964005] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[1.964041] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv\n'}
+[1.964064] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail\n'}
+[1.964094] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/arm_angle__type_support.cpp\n'}
+[1.964118] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/arm_angle__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.964158] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[1.964183] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[1.964214] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot_pose__rosidl_typesupport_introspection_cpp.hpp\n'}
+[1.964239] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/robot_pose__type_support.cpp\n'}
+[1.964287] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[1.964412] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[1.964466] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so\n'}
+[1.964580] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[1.964613] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/environment/pythonpath.sh\n'}
+[1.964648] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/environment/pythonpath.dsv\n'}
+[1.964684] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info\n'}
+[1.964708] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[1.964741] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[1.964773] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[1.964813] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[1.964868] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces\n'}
+[1.964902] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/libbase_interfaces__rosidl_generator_py.so\n'}
+[1.964956] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.965015] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[1.965067] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[1.965117] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv\n'}
+[1.965152] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/_arm_angle_s.c\n'}
+[1.965184] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/_arm_angle.py\n'}
+[1.965236] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/__init__.py\n'}
+[1.965277] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg\n'}
+[1.965310] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_robot_pose.py\n'}
+[1.965343] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_robot_pose_s.c\n'}
+[1.965387] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/__init__.py\n'}
+[1.965430] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[1.965482] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.965538] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.965665] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/__init__.py\n'}
+[1.984971] (base_interfaces) StdoutLine: {'line': b"Listing '/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces'...\n"}
+[1.985039] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/__init__.py'...\n"}
+[1.985069] (base_interfaces) StdoutLine: {'line': b"Listing '/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg'...\n"}
+[1.985093] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/__init__.py'...\n"}
+[1.985125] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/msg/_robot_pose.py'...\n"}
+[1.985148] (base_interfaces) StdoutLine: {'line': b"Listing '/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv'...\n"}
+[1.985170] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/__init__.py'...\n"}
+[1.985195] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/srv/_arm_angle.py'...\n"}
+[1.987749] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.987830] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[1.987861] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.987999] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[1.988072] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so\n'}
+[1.988120] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.cpython-310-x86_64-linux-gnu.so" to ""\n'}
+[1.988159] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so\n'}
+[1.988293] (base_interfaces) StdoutLine: {'line': b'-- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so" to ""\n'}
+[1.988327] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/msg/RobotPose.idl\n'}
+[1.988368] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/srv/ArmAngle.idl\n'}
+[1.988407] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/msg/RobotPose.msg\n'}
+[1.988439] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/srv/ArmAngle.srv\n'}
+[1.988479] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/srv/ArmAngle_Request.msg\n'}
+[1.988507] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/srv/ArmAngle_Response.msg\n'}
+[1.988553] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/ament_index/resource_index/package_run_dependencies/base_interfaces\n'}
+[1.988581] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/ament_index/resource_index/parent_prefix_path/base_interfaces\n'}
+[1.988620] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.sh\n'}
+[1.988644] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.dsv\n'}
+[1.988682] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/environment/path.sh\n'}
+[1.988718] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/environment/path.dsv\n'}
+[1.988742] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/local_setup.bash\n'}
+[1.988773] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/local_setup.sh\n'}
+[1.988796] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/local_setup.zsh\n'}
+[1.988820] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/local_setup.dsv\n'}
+[1.988855] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/package.dsv\n'}
+[1.988880] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/ament_index/resource_index/packages/base_interfaces\n'}
+[1.988923] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport.cmake\n'}
+[1.988947] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[1.988981] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[1.989013] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[1.989039] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[1.989072] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[1.989098] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[1.989134] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[1.989169] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cppExport.cmake\n'}
+[1.989195] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[1.989220] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[1.989260] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[1.989302] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[1.989338] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[1.989378] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[1.989402] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport.cmake\n'}
+[1.989426] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[1.989449] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[1.989473] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[1.989503] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[1.989525] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[1.989556] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[1.989579] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[1.989602] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[1.989625] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig.cmake\n'}
+[1.989647] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig-version.cmake\n'}
+[1.989761] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/package.xml\n'}
+[1.990691] (base_interfaces) CommandEnded: {'returncode': 0}
+[2.002421] (-) TimerEvent: {}
+[2.086597] (base_interfaces) JobEnded: {'identifier': 'base_interfaces', 'rc': 0}
+[2.087069] (-) EventReactorShutdown: {}

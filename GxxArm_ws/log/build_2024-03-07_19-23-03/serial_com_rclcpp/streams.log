@@ -1,0 +1,32 @@
+[0.028s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp -- -j20 -l20
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target Serial_ReadPub[0m
+[0.049s] [35m[1mConsolidate compiler generated dependencies of target Serial_WriteSub[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/Serial_ReadPub.dir/src/Serial_ReadPub.cpp.o[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/Serial_WriteSub.dir/src/Serial_WriteSub.cpp.o[0m
+[2.755s] [ 75%] [32m[1mLinking CXX executable Serial_ReadPub[0m
+[2.877s] [ 75%] Built target Serial_ReadPub
+[4.865s] [100%] [32m[1mLinking CXX executable Serial_WriteSub[0m
+[5.064s] [100%] Built target Serial_WriteSub
+[5.070s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp' returned '0': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp -- -j20 -l20
+[5.085s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp
+[5.088s] -- Install configuration: ""
+[5.089s] -- Installing: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_ReadPub
+[5.089s] -- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_ReadPub" to ""
+[5.090s] -- Installing: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_WriteSub
+[5.092s] -- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_WriteSub" to ""
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/ament_index/resource_index/package_run_dependencies/serial_com_rclcpp
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/ament_index/resource_index/parent_prefix_path/serial_com_rclcpp
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/environment/ament_prefix_path.sh
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/environment/ament_prefix_path.dsv
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/environment/path.sh
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/environment/path.dsv
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/local_setup.bash
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/local_setup.sh
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/local_setup.zsh
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/local_setup.dsv
+[5.092s] -- Installing: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/package.dsv
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/ament_index/resource_index/packages/serial_com_rclcpp
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/cmake/serial_com_rclcppConfig.cmake
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/cmake/serial_com_rclcppConfig-version.cmake
+[5.092s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/package.xml
+[5.093s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp' returned '0': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp

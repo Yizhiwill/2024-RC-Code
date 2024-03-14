@@ -1,0 +1,34 @@
+[0.021s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/base_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vol/willgit/GxxArm_ws/src/base_interfaces -DCMAKE_INSTALL_PREFIX=/home/vol/willgit/GxxArm_ws/install/base_interfaces
+[0.028s] -- Found ament_cmake: 1.3.6 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.102s] -- Found rosidl_default_generators: 1.2.0 (/opt/ros/humble/share/rosidl_default_generators/cmake)
+[0.103s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.105s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.120s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.133s] -- Found geometry_msgs: 4.2.3 (/opt/ros/humble/share/geometry_msgs/cmake)
+[0.197s] -- Found ament_lint_auto: 0.12.9 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.236s] -- Added test 'lint_cmake' to check CMake code style
+[0.236s] -- Added test 'xmllint' to check XML markup files
+[0.237s] -- Configuring done
+[0.239s] -- Generating done
+[0.239s] -- Build files have been written to: /home/vol/willgit/GxxArm_ws/build/base_interfaces
+[0.243s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake /home/vol/willgit/GxxArm_ws/src/base_interfaces -DCMAKE_INSTALL_PREFIX=/home/vol/willgit/GxxArm_ws/install/base_interfaces
+[0.243s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/base_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/base_interfaces -- -j20 -l20
+[0.263s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/base_interfaces -- -j20 -l20
+[0.278s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/base_interfaces': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/base_interfaces
+[0.282s] -- Install configuration: ""
+[0.282s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/ament_index/resource_index/package_run_dependencies/base_interfaces
+[0.282s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/ament_index/resource_index/parent_prefix_path/base_interfaces
+[0.282s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.sh
+[0.282s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.dsv
+[0.282s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/environment/path.sh
+[0.283s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/environment/path.dsv
+[0.283s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/local_setup.bash
+[0.283s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/local_setup.sh
+[0.283s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/local_setup.zsh
+[0.283s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/local_setup.dsv
+[0.283s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/package.dsv
+[0.283s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/ament_index/resource_index/packages/base_interfaces
+[0.283s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig.cmake
+[0.283s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig-version.cmake
+[0.283s] -- Installing: /home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/package.xml
+[0.284s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=/opt/ros/humble /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/base_interfaces

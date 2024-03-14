@@ -1,0 +1,24 @@
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:[m[K In member function ‘[01m[Kvoid arm_IKClient::send_request()[m[K’:
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:52:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+   52 |     request->x = [01;31m[Kx[m[K;
+      |                  [01;31m[K^[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:53:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+   53 |     request->y = [01;31m[Ky[m[K;
+      |                  [01;31m[K^[m[K
+      |                  [32m[Kyn[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:54:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope
+   54 |     request->z = [01;31m[Kz[m[K;
+      |                  [01;31m[K^[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:55:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kroll[m[K’ was not declared in this scope
+   55 |     request->roll = [01;31m[Kroll[m[K;
+      |                     [01;31m[K^~~~[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:56:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kpit[m[K’ was not declared in this scope; did you mean ‘[01m[Kpi[m[K’?
+   56 |     request->pit = [01;31m[Kpit[m[K;
+      |                    [01;31m[K^~~[m[K
+      |                    [32m[Kpi[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:57:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw[m[K’ was not declared in this scope
+   57 |     request->yaw = [01;31m[Kyaw[m[K;
+      |                    [01;31m[K^~~[m[K
+gmake[2]: *** [CMakeFiles/arm_IK_client.dir/build.make:76: CMakeFiles/arm_IK_client.dir/src/arm_IK_client.cpp.o] Error 1
+gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/arm_IK_client.dir/all] Error 2
+gmake: *** [Makefile:146: all] Error 2

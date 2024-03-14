@@ -1,0 +1,37 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from base_interfaces/srv/ArmAngle.srv
+// generated code does not contain a copyright notice
+
+
+module base_interfaces {
+  module srv {
+    struct ArmAngle_Request {
+      double x;
+
+      double y;
+
+      double z;
+
+      double roll;
+
+      double pit;
+
+      double yaw;
+    };
+    struct ArmAngle_Response {
+      boolean success;
+
+      double target_arm_angle1;
+
+      double target_arm_angle2;
+
+      double target_arm_angle3;
+
+      double target_arm_angle4;
+
+      double target_arm_angle5;
+
+      double target_arm_angle6;
+    };
+  };
+};

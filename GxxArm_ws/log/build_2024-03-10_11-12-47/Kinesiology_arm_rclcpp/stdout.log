@@ -1,0 +1,10 @@
+[35m[1mConsolidate compiler generated dependencies of target arm_IK_server[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_IK_client[0m
+[35m[1mConsolidate compiler generated dependencies of target arm_FK_client[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/arm_IK_client.dir/src/arm_IK_client.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/arm_IK_server.dir/src/arm_IK_server.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/arm_FK_client.dir/src/arm_FK_client.cpp.o[0m
+[ 66%] [32m[1mLinking CXX executable arm_IK_server[0m
+[ 66%] Built target arm_IK_server
+[ 83%] [32m[1mLinking CXX executable arm_IK_client[0m
+[ 83%] Built target arm_IK_client

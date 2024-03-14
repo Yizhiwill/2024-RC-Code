@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite
+  name="serial_com_rclcpp.cppcheck"
+  tests="5"
+  errors="0"
+  failures="0"
+  time="0.001"
+  skipped="5"
+>
+  <testcase
+    name="cmake-build-debug/CMakeFiles/3.27.8/CompilerIdC/CMakeCCompilerId.c"
+    classname="serial_com_rclcpp.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="cmake-build-debug/CMakeFiles/3.27.8/CompilerIdCXX/CMakeCXXCompilerId.cpp"
+    classname="serial_com_rclcpp.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="include/serial_com_rclcpp/serial_port.hpp"
+    classname="serial_com_rclcpp.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/Serial_ReadPub.cpp"
+    classname="serial_com_rclcpp.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <testcase
+    name="src/Serial_WriteSub.cpp"
+    classname="serial_com_rclcpp.cppcheck"
+  >
+    <skipped type="skip" message="">
+      ![CDATA[Test Skipped due to cppcheck 2.7 performance issues]]
+    </skipped>
+  </testcase>
+  <system-err>Tests Skipped due to cppcheck 2.7 performance issues</system-err>
+</testsuite>

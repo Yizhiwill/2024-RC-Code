@@ -1,0 +1,20 @@
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_FK_client.cpp:[m[K In member function ‘[01m[Kvoid arm_FKClient::send_request(double, double, double, double, double, double)[m[K’:
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_FK_client.cpp:28:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kx[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 |   void send_request([01;35m[Kdouble x[m[K, double y, double z, double roll, double pit,
+      |                     [01;35m[K~~~~~~~^[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_FK_client.cpp:28:38:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Ky[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 |   void send_request(double x, [01;35m[Kdouble y[m[K, double z, double roll, double pit,
+      |                               [01;35m[K~~~~~~~^[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_FK_client.cpp:28:48:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kz[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 |   void send_request(double x, double y, [01;35m[Kdouble z[m[K, double roll, double pit,
+      |                                         [01;35m[K~~~~~~~^[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_FK_client.cpp:28:58:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kroll[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 |   void send_request(double x, double y, double z, [01;35m[Kdouble roll[m[K, double pit,
+      |                                                   [01;35m[K~~~~~~~^~~~[m[K
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_FK_client.cpp:28:71:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kpit[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   28 | oid send_request(double x, double y, double z, double roll, [01;35m[Kdouble pit[m[K,
+      |                                                             [01;35m[K~~~~~~~^~~[m[K
+
+[01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_FK_client.cpp:29:28:[m[K [01;35m[Kwarning: [m[Kunused parameter ‘[01m[Kyaw[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-parameter-Wunused-parameter]8;;[m[K]
+   29 |                     [01;35m[Kdouble yaw[m[K) {
+      |                     [01;35m[K~~~~~~~^~~[m[K

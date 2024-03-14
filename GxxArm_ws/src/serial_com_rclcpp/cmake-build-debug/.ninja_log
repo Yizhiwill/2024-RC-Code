@@ -1,0 +1,6 @@
+# ninja log v5
+1	5461	1709809234878532042	CMakeFiles/Serial_WriteSub.dir/src/Serial_WriteSub.cpp.o	66ccad9643de9dd1
+0	2974	1709804003884753550	CMakeFiles/Serial_ReadPub.dir/src/Serial_ReadPub.cpp.o	686d9c8b0bb826e6
+1	474	1710324923621698622	build.ninja	fdb646143a852eb
+5461	5703	1709809235130552498	Serial_WriteSub	6107a65af62af5cf
+2974	3090	1709804004004762383	Serial_ReadPub	6c649a93a9b87b2e

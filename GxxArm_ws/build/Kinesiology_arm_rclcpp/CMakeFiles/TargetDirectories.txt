@@ -1,0 +1,13 @@
+/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp/CMakeFiles/uninstall.dir
+/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp/CMakeFiles/Kinesiology_arm_rclcpp_uninstall.dir
+/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp/CMakeFiles/arm_FK_server.dir
+/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp/CMakeFiles/arm_FK_client.dir
+/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp/CMakeFiles/arm_IK_client.dir
+/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp/CMakeFiles/arm_IK_server.dir
+/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp/CMakeFiles/test.dir
+/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp/CMakeFiles/edit_cache.dir
+/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp/CMakeFiles/rebuild_cache.dir
+/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp/CMakeFiles/list_install_components.dir
+/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp/CMakeFiles/install.dir
+/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp/CMakeFiles/install/local.dir
+/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp/CMakeFiles/install/strip.dir

@@ -1,0 +1,46 @@
+[0.029s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp -- -j20 -l20
+[0.057s] [ 50%] [32mBuilding CXX object CMakeFiles/Serial_ReadPub.dir/src/Serial_ReadPub.cpp.o[0m
+[0.058s] [ 50%] [32mBuilding CXX object CMakeFiles/Serial_WriteSub.dir/src/Serial_WriteSub.cpp.o[0m
+[1.254s] In file included from [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_ReadPub.cpp:13[m[K:
+[1.254s] [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include/serial_com_rclcpp/serial_port.hpp:[m[K In member function ‘[01m[Kvoid serial_port::serial_com::Serial_Sen_Callback(double, double, double, double, double, double)[m[K’:
+[1.254s] [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include/serial_com_rclcpp/serial_port.hpp:29:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksumcheck[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.254s]    29 |     uint8_t [01;35m[Ksumcheck[m[K = 0;
+[1.254s]       |             [01;35m[K^~~~~~~~[m[K
+[1.254s] [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include/serial_com_rclcpp/serial_port.hpp:30:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kaddcheck[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.254s]    30 |     uint8_t [01;35m[Kaddcheck[m[K = 0;
+[1.254s]       |             [01;35m[K^~~~~~~~[m[K
+[1.274s] In file included from [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/src/Serial_WriteSub.cpp:14[m[K:
+[1.274s] [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include/serial_com_rclcpp/serial_port.hpp:[m[K In member function ‘[01m[Kvoid serial_port::serial_com::Serial_Sen_Callback(double, double, double, double, double, double)[m[K’:
+[1.274s] [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include/serial_com_rclcpp/serial_port.hpp:29:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Ksumcheck[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.274s]    29 |     uint8_t [01;35m[Ksumcheck[m[K = 0;
+[1.274s]       |             [01;35m[K^~~~~~~~[m[K
+[1.274s] [01m[K/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include/serial_com_rclcpp/serial_port.hpp:30:13:[m[K [01;35m[Kwarning: [m[Kunused variable ‘[01m[Kaddcheck[m[K’ [[01;35m[K]8;;https://gcc.gnu.org/onlinedocs/gcc/Warning-Options.html#index-Wunused-variable-Wunused-variable]8;;[m[K]
+[1.274s]    30 |     uint8_t [01;35m[Kaddcheck[m[K = 0;
+[1.274s]       |             [01;35m[K^~~~~~~~[m[K
+[2.322s] [ 75%] [32m[1mLinking CXX executable Serial_ReadPub[0m
+[2.430s] [ 75%] Built target Serial_ReadPub
+[4.326s] [100%] [32m[1mLinking CXX executable Serial_WriteSub[0m
+[4.527s] [100%] Built target Serial_WriteSub
+[4.534s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp' returned '0': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp -- -j20 -l20
+[4.547s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp
+[4.551s] -- Install configuration: ""
+[4.552s] -- Installing: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_ReadPub
+[4.553s] -- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_ReadPub" to ""
+[4.553s] -- Installing: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_WriteSub
+[4.556s] -- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_WriteSub" to ""
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/ament_index/resource_index/package_run_dependencies/serial_com_rclcpp
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/ament_index/resource_index/parent_prefix_path/serial_com_rclcpp
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/environment/ament_prefix_path.sh
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/environment/ament_prefix_path.dsv
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/environment/path.sh
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/environment/path.dsv
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/local_setup.bash
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/local_setup.sh
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/local_setup.zsh
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/local_setup.dsv
+[4.556s] -- Installing: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/package.dsv
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/ament_index/resource_index/packages/serial_com_rclcpp
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/cmake/serial_com_rclcppConfig.cmake
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/cmake/serial_com_rclcppConfig-version.cmake
+[4.556s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/share/serial_com_rclcpp/package.xml
+[4.557s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp' returned '0': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp

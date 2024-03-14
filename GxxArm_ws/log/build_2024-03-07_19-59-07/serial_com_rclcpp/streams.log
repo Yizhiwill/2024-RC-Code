@@ -1,0 +1,43 @@
+[0.029s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp -- -j20 -l20
+[0.042s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.112s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.127s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.128s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.132s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.138s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.147s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.178s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.179s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.242s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.327s] -- Found base_interfaces: 0.0.0 (/home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake)
+[0.390s] -- Found serial: 1.2.1 (/usr/local/share/serial/cmake)
+[0.392s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.433s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.433s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/include>
+[0.433s] -- Configured cppcheck exclude dirs and/or files: 
+[0.433s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.434s] -- Added test 'lint_cmake' to check CMake code style
+[0.434s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.437s] -- Added test 'uncrustify' to check C / C++ code style
+[0.437s] -- Configured uncrustify additional arguments: 
+[0.437s] -- Added test 'xmllint' to check XML markup files
+[0.438s] -- Configuring done
+[0.445s] -- Generating done
+[0.446s] -- Build files have been written to: /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp
+[0.461s] [35m[1mConsolidate compiler generated dependencies of target Serial_WriteSub[0m
+[0.461s] [35m[1mConsolidate compiler generated dependencies of target Serial_ReadPub[0m
+[0.471s] [100%] Built target Serial_WriteSub
+[0.471s] [100%] Built target Serial_ReadPub
+[0.477s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp' returned '0': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp -- -j20 -l20
+[0.493s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp
+[0.497s] -- Install configuration: ""
+[0.498s] -- Up-to-date: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_ReadPub
+[0.498s] -- Installing: /home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_WriteSub
+[0.501s] [31mCMake Error at cmake_install.cmake:86 (file):
+[0.501s]   file INSTALL cannot find
+[0.501s]   "/home/vol/willgit/GxxArm_ws/src/serial_com_rclcpp/launch": No such file or
+[0.501s]   directory.
+[0.501s] 
+[0.501s] [0m
+[0.501s] -- Set runtime path of "/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp/lib/serial_com_rclcpp/Serial_WriteSub" to ""
+[0.522s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp' returned '1': CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/home/vol/willgit/GxxArm_ws/install/serial_com_rclcpp:/home/vol/willgit/GxxArm_ws/install/Kinesiology_arm_rclcpp:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) /usr/bin/cmake --install /home/vol/willgit/GxxArm_ws/build/serial_com_rclcpp

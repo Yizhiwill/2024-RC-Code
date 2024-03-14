@@ -1,0 +1,47 @@
+[0.045s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20
+[0.059s] -- Found ament_cmake: 1.3.8 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.130s] -- Found rclcpp: 16.0.8 (/opt/ros/humble/share/rclcpp/cmake)
+[0.146s] -- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)
+[0.147s] -- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)
+[0.150s] -- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)
+[0.157s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.165s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.198s] -- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)
+[0.199s] -- Found rmw_fastrtps_cpp: 6.2.6 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)
+[0.268s] -- Using RMW implementation 'rmw_fastrtps_cpp' as default
+[0.359s] -- Found base_interfaces: 0.0.0 (/home/vol/willgit/GxxArm_ws/install/base_interfaces/share/base_interfaces/cmake)
+[0.426s] -- Found ament_lint_auto: 0.12.10 (/opt/ros/humble/share/ament_lint_auto/cmake)
+[0.458s] WARNING: Package name "Kinesiology_arm_rclcpp" does not follow the naming conventions. It should start with a lower case letter and only contain lower case letters, digits, underscores, and dashes.
+[0.470s] -- Added test 'cppcheck' to perform static code analysis on C / C++ code
+[0.470s] -- Configured cppcheck include dirs: $<BUILD_INTERFACE:/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/include>
+[0.470s] -- Configured cppcheck exclude dirs and/or files: 
+[0.471s] -- Added test 'flake8' to check Python code syntax and style conventions
+[0.472s] -- Added test 'lint_cmake' to check CMake code style
+[0.472s] -- Added test 'pep257' to check Python code against some of the docstring style conventions in PEP 257
+[0.475s] -- Added test 'uncrustify' to check C / C++ code style
+[0.475s] -- Configured uncrustify additional arguments: 
+[0.475s] -- Added test 'xmllint' to check XML markup files
+[0.476s] -- Configuring done
+[0.487s] -- Generating done
+[0.488s] -- Build files have been written to: /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp
+[0.505s] [35m[1mConsolidate compiler generated dependencies of target arm_FK_client[0m
+[0.505s] [35m[1mConsolidate compiler generated dependencies of target arm_FK_server[0m
+[0.511s] [ 25%] [32mBuilding CXX object CMakeFiles/arm_IK_server.dir/src/arm_IK_server.cpp.o[0m
+[0.511s] [ 25%] [32mBuilding CXX object CMakeFiles/arm_IK_client.dir/src/arm_IK_client.cpp.o[0m
+[0.519s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_FK_client.dir/src/arm_FK_client.cpp.o[0m
+[0.519s] [ 50%] [32mBuilding CXX object CMakeFiles/arm_FK_server.dir/src/arm_FK_server.cpp.o[0m
+[0.524s] [ 62%] [32m[1mLinking CXX executable arm_IK_server[0m
+[0.567s] /usr/bin/ld: /usr/lib/gcc/x86_64-linux-gnu/11/../../../x86_64-linux-gnu/Scrt1.o: in function `_start':
+[0.567s] (.text+0x1b): undefined reference to `main'
+[0.569s] collect2: error: ld returned 1 exit status
+[0.570s] gmake[2]: *** [CMakeFiles/arm_IK_server.dir/build.make:175: arm_IK_server] Error 1
+[0.570s] gmake[1]: *** [CMakeFiles/Makefile2:221: CMakeFiles/arm_IK_server.dir/all] Error 2
+[0.570s] gmake[1]: *** Waiting for unfinished jobs....
+[3.721s] [ 75%] [32m[1mLinking CXX executable arm_IK_client[0m
+[3.813s] [ 75%] Built target arm_IK_client
+[4.127s] [ 87%] [32m[1mLinking CXX executable arm_FK_server[0m
+[4.235s] [ 87%] Built target arm_FK_server
+[4.952s] [100%] [32m[1mLinking CXX executable arm_FK_client[0m
+[5.103s] [100%] Built target arm_FK_client
+[5.103s] gmake: *** [Makefile:146: all] Error 2
+[5.105s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp' returned '2': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20

@@ -1,0 +1,33 @@
+[0.044s] Invoking command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target arm_FK_client[0m
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target arm_FK_server[0m
+[0.067s] [35m[1mConsolidate compiler generated dependencies of target arm_IK_client[0m
+[0.075s] [ 25%] Built target arm_IK_server
+[0.078s] [ 50%] Built target arm_FK_server
+[0.078s] [ 87%] [32mBuilding CXX object CMakeFiles/arm_IK_client.dir/src/arm_IK_client.cpp.o[0m
+[0.078s] [ 87%] Built target arm_FK_client
+[1.743s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:[m[K In member function ‘[01m[Kvoid arm_IKClient::send_request()[m[K’:
+[1.743s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:52:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kx[m[K’ was not declared in this scope
+[1.743s]    52 |     request->x = [01;31m[Kx[m[K;
+[1.743s]       |                  [01;31m[K^[m[K
+[1.745s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:53:18:[m[K [01;31m[Kerror: [m[K‘[01m[Ky[m[K’ was not declared in this scope; did you mean ‘[01m[Kyn[m[K’?
+[1.746s]    53 |     request->y = [01;31m[Ky[m[K;
+[1.746s]       |                  [01;31m[K^[m[K
+[1.746s]       |                  [32m[Kyn[m[K
+[1.748s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:54:18:[m[K [01;31m[Kerror: [m[K‘[01m[Kz[m[K’ was not declared in this scope
+[1.748s]    54 |     request->z = [01;31m[Kz[m[K;
+[1.748s]       |                  [01;31m[K^[m[K
+[1.751s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:55:21:[m[K [01;31m[Kerror: [m[K‘[01m[Kroll[m[K’ was not declared in this scope
+[1.751s]    55 |     request->roll = [01;31m[Kroll[m[K;
+[1.751s]       |                     [01;31m[K^~~~[m[K
+[1.753s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:56:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kpit[m[K’ was not declared in this scope; did you mean ‘[01m[Kpi[m[K’?
+[1.754s]    56 |     request->pit = [01;31m[Kpit[m[K;
+[1.754s]       |                    [01;31m[K^~~[m[K
+[1.754s]       |                    [32m[Kpi[m[K
+[1.756s] [01m[K/home/vol/willgit/GxxArm_ws/src/kinesiology_arm_rclcpp/src/arm_IK_client.cpp:57:20:[m[K [01;31m[Kerror: [m[K‘[01m[Kyaw[m[K’ was not declared in this scope
+[1.756s]    57 |     request->yaw = [01;31m[Kyaw[m[K;
+[1.756s]       |                    [01;31m[K^~~[m[K
+[2.557s] gmake[2]: *** [CMakeFiles/arm_IK_client.dir/build.make:76: CMakeFiles/arm_IK_client.dir/src/arm_IK_client.cpp.o] Error 1
+[2.557s] gmake[1]: *** [CMakeFiles/Makefile2:195: CMakeFiles/arm_IK_client.dir/all] Error 2
+[2.557s] gmake: *** [Makefile:146: all] Error 2
+[2.559s] Invoked command in '/home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp' returned '2': AMENT_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces:/opt/ros/humble CONDA_PROMPT_MODIFIER=(base) LD_LIBRARY_PATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/vol/willgit/GxxArm_ws/install/base_interfaces/local/lib/python3.10/dist-packages:${PYTHONPATH} /usr/bin/cmake --build /home/vol/willgit/GxxArm_ws/build/Kinesiology_arm_rclcpp -- -j20 -l20
